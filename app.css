@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* Cozette is a bit too cramped */
+@font-face {
+    font-family: Cozette;
+    src: url("/public/cozette/CozetteVector.otf")  format("opentype");
+}
+
+/* Departure gives off better mono-vibes */
+@font-face {
+    font-family: Departure;
+    src: url("./public/DepartureMono-1.422/DepartureMono-Regular.otf") format("opentype");
+}
+
+/* MAKE 
+SURE 
+TO 
+CREEEEEEEEDIT 
+WHOEVER 
+MADE 
+THESE 
+FOOOOOOOOONTS */
+
+body {
+    font-family: "Departure";
+    background-color: rgb(210,210,210);
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: orchid;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#school {
+    filter: blur(1.0rem) contrast(0.5);
+}
